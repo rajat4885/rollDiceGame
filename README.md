@@ -29,10 +29,6 @@ This is a simple web-based Dice Game between **Player 1** and **Player 2**, buil
 - CSS
 - JavaScript (Vanilla)
 
-## 📸 Preview
-
-![Dice Game Preview](./assets/dice-1.png)
-
 ## 🛠️ Future Improvements
 
 - Add a **winning condition** (e.g., first to reach 100 points wins)
