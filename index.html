@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="game-container">
+
+            <button class="new-game-btn">🎮 NEW GAME</button>
+            <div class="game-dice-image">
+                <img src="./assets/dice-1.png" alt="dice-1" class="dice-image">
+            </div>
+
+            <div class="left-game-container player-container active-player">
+                <div class="player-number player-1-number">
+
+                    <h2>
+                        Player 1
+                    </h2>
+                </div>
+                <div class="player-score player-1-score">
+                    0
+                </div>
+
+                <div class="current-score player-1-current-score">
+                    <span>Current Score</span>
+                    <span class="current-score-player-1 total-score">0</span>
+                </div>
+            </div>
+
+            <div class="right-game-container player-container">
+                <div class="player-number player-2-number">
+                    <h2>
+                        Player 2
+                    </h2>
+                </div>
+                <div class="player-score player-2-score">
+                    0
+                </div>
+
+                <div class="current-score player-2-current-score">
+                    <span>Current Score</span>
+                    <span class="current-score-player-2 total-score">0</span>
+                </div>
+            </div>
+
+
+
+            <button class="switch-player-btn">🔄 SWITCH PLAYER</button>
+            <button class="roll-dice-btn">🎲 ROLL DICE</button>
+
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
