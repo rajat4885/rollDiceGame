@@ -2,6 +2,8 @@
 
 This is a simple web-based Dice Game between **Player 1** and **Player 2**, built using **HTML**, **CSS**, and **JavaScript**.
 
+🔗 **Live Demo:** [Play the Game Here](https://rajat4885.github.io/rollDiceGame/)
+
 ## 🚀 Features
 
 - Two-player turn-based gameplay
